@@ -1,0 +1,36 @@
+{
+  "name": "multilevel-feed",
+  "version": "0.0.0",
+  "description": "multilevel server and browser client with a level-livefeed manifest",
+  "browser": "browser.js",
+  "main": "index.js",
+  "dependencies": {
+    "level-livefeed": "~0.1.3",
+    "multilevel": "~5.5.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "level-mem": "~0.18.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/multilevel-feed.git"
+  },
+  "homepage": "https://github.com/substack/multilevel-feed",
+  "keywords": [
+    "level",
+    "multilevel",
+    "livefeed",
+    "leveldb",
+    "live"
+  ],
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
+  },
+  "license": "MIT"
+}
